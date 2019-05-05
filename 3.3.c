@@ -11,7 +11,7 @@ int main(void) {
     int seconds, hours, minutes;
 
     printf("Number of seconds: ");
-    scanf("%d", &seconds);
+    scanf("%d", &seconds); getchar();
 
     hours = seconds / secondsInHour;
     seconds -= hours * secondsInHour;
