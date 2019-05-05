@@ -1,4 +1,5 @@
-/* To write a program that receives the number of seconds elapsed in a given 
+/* 
+ * To write a program that receives the number of seconds elapsed in a given 
  * event and prints the time in the hours-minutes-seconds format, where both 
  * hours and minutes are exhibited with two digits and leading zeros, and 
  * seconds are exhibited with two decimal places, also with leading zeros.

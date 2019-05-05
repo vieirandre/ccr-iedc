@@ -1,4 +1,5 @@
-/* To write a program that receives two values: the price of the gallon of gasoline 
+/* 
+ * To write a program that receives two values: the price of the gallon of gasoline 
  * practiced in the US and the conversion rate from dollar ($) to real (R$). 
  * The price of the corresponding liter of gasoline in reais should be displayed.
  */
