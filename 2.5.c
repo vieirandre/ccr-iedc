@@ -1,9 +1,8 @@
 /*
- * To write a program that, considering the existence of R$ 100, R$ 50, 
- * R$ 20, R$ 10, R$ 5, R$ 2 and R$ 1 bills, captures a whole amount in 
- * reais and determines the smallest number of bills to obtain the amount 
- * provided. The program should display the number of bills for each of 
- * the existing values.
+ * To write a program that, considering the existence of R$ 100, R$ 50, R$ 20, R$ 10, R$ 5, 
+ * R$ 2 and R$ 1 bills, captures a whole amount in reais and determines the smallest number of 
+ * bills to obtain the amount provided. The program should display the number of bills for 
+ * each of the existing values.
  */
 
 #include <stdio.h>
