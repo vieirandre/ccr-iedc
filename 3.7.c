@@ -20,6 +20,7 @@ void game_decider(char userChoice, char computerChoice, bool *userWon) {
             break;
         case 2:
             *userWon = computerChoice == 1 ? true : false;
+            break;
         default:
             break;
     }
