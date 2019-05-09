@@ -1,5 +1,5 @@
 /*
- * To write a program, that calculates the volume of a sphere with cylindrical bore.
+ * To write a program that calculates the volume of a sphere with a cylindrical bore.
  */
 
 #include <stdio.h>
