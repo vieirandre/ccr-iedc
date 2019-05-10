@@ -43,7 +43,7 @@ int roots(double a, double b, double c, double* px1, double* px2) {
         n = 1;
     }
     else {
-        double delta = b * b - 4 * a * c;
+        double delta = pow(b, 2) - 4 * a * c;
 
         if (delta > 0) {
             delta = sqrt(delta);
