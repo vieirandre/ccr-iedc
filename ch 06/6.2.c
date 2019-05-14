@@ -4,19 +4,20 @@
  */
 
 #include <stdio.h>
-#define N 100
 
 void capture_values(int n, int* vec);
 void reverse(int n, int* vec);
 
 int main(void) {
-    int n, vec[N];
+    int n;
 
     printf("Insert the desired array length (0 < n <= 100): ");
     scanf("%d", &n); getchar();
 
     if (n <= 0 || n > 100)
         return 1;
+
+    int vec[n];
 
     capture_values(n, vec);
     reverse(n, vec);
