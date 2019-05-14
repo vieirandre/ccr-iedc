@@ -6,11 +6,11 @@
 #include <stdio.h>
 #define N 100
 
-void capture_values(int n, int* x);
+void capture_values(int n, int* vec);
 void reverse(int n, int* vec);
 
 int main(void) {
-    int n, x[N];
+    int n, vec[N];
 
     printf("Insert the desired array length (0 < n <= 100): ");
     scanf("%d", &n); getchar();
@@ -18,22 +18,22 @@ int main(void) {
     if (n <= 0 || n > 100)
         return 1;
 
-    capture_values(n, x);
-    reverse(n, x);
+    capture_values(n, vec);
+    reverse(n, vec);
 
     printf("\nReversed array:\n");
     for (int i = 0; i < n; i++) {
-        printf("%d ", x[i]);
+        printf("%d ", vec[i]);
     }
 
     getchar();
     return 0;
 }
 
-void capture_values(int n, int* x) {
+void capture_values(int n, int* vec) {
     printf("Insert the values:\n");
     for (int i = 0; i < n; i++) {
-        scanf("%d", &x[i]); getchar();
+        scanf("%d", &vec[i]); getchar();
     }
 }
 
