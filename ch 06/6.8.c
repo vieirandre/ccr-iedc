@@ -4,7 +4,6 @@
  */
 
 #include <stdio.h>
-#include <math.h>
 
 void capture_values(int n, int* v);
 int test_AP(int n, int* v);
