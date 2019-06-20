@@ -1,5 +1,6 @@
 /*
- * To implement a iterative function to calculate the greatest common divisor of two positive integer numbers, using the the Euclidean algorithm.
+ * To implement a iterative function to calculate the greatest common divisor of two positive integer numbers, 
+ * using the the Euclidean algorithm.
  */
 
 #include <stdio.h>
