@@ -26,21 +26,16 @@ int main(void) {
     } while (n < 1);
 
     int primes[n];
-    int cont = 0;
+    int i, cont = 0;
+    int* lim;
 
-    if (op == 1) {
-        for (int i = 0; i < n; i++) {
-            if (prime(i) == true) {
-                primes[cont] = i;
-                cont++;
-            }
-        }
-    } else {
-        for (int i = 0; cont < n; i++) {
-            if (prime(i) == true) {
-                primes[cont] = i;
-                cont++;
-            }
+    if (op == 1) lim = &i;
+    else lim = &cont;
+
+    for (; *lim < n; i++) {
+        if (prime(i) == true) {
+            primes[cont] = i;
+            cont++;
         }
     }
     
