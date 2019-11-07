@@ -57,7 +57,7 @@ void work_the_option(int op, int n) {
 
             break;
         case 2:
-            belongs = is_perfect_square(5 * n * n + 4) || is_perfect_square(5 * n * n - 4);
+            belongs = is_perfect_square(5 * pow(n, 2) + 4) || is_perfect_square(5 * pow(n, 2) - 4);
 
             if (belongs == true)
                 printf("\nThe number %d belongs to the Fibonacci series\n", n);
