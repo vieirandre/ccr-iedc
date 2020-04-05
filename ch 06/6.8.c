@@ -11,7 +11,7 @@ int test_AP(int n, int* v);
 int main(void) {
     int n;
 
-    printf("Insert the array elements (3 <= n <= 100): ");
+    printf("Insert the array size (3 <= n <= 100): ");
     scanf("%d", &n); getchar();
 
     if (n < 3 || n > 100)
