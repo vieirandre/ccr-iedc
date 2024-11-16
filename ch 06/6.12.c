@@ -1,8 +1,8 @@
 /**
  * Write a function that verifies if a square matrix of [N] x [N] dimension,
- * where [N] represents a symbolic constant, is a identity matrix.
+ * where [N] represents a symbolic constant, is an identity matrix.
  *
- * In a identity matrix, the elements of the main diagonal are equal to 1.0,
+ * In an identity matrix, the elements of the main diagonal are equal to 1.0,
  * and the other are equal to 0.0.
  *
  * The function must return 1 if the given matrix is an identity matrix
